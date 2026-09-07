@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<title>Slot Machine</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+	 <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+  
+
+</head>
+
+<body>
+<header>
+    <h1>Fit Spin</h1>
+    <label class="text">YOUR WALLET
+    <input disabled type="number" id="wallet">
+  </label>
+</header>
+<main >
+  <section class="slot-machine">
+    <section class="reels-window"> 
+        <section class="reel">
+          <div id="reel1-symbol1">  </div>
+          <div id="reel1-symbol2"></div>
+          <div id="reel1-symbol3"></div>
+          <div id="reel1-symbol4"></div>
+          <div id="reel1-symbol5"></div>
+        </section>
+        <section  class="reel">
+          <div id="reel2-symbol1"></div>
+          <div id="reel2-symbol2"></div>
+          <div id="reel2-symbol3"></div>
+          <div id="reel2-symbol4"></div>
+          <div id="reel2-symbol5"></div>
+        </section>
+        <section class="reel">
+          <div id="reel3-symbol1"></div>
+          <div id="reel3-symbol2"></div>
+          <div id="reel3-symbol3"></div>
+          <div id="reel3-symbol4"></div>
+          <div id="reel3-symbol5"></div>
+        </section>
+    </section>
+  </section>
+    <section class="bet-controls">  
+        <label for="bet-amount" class="text">Bet Amount:</label>
+        <input type="number" id="bet-amount"> 
+    </section>
+    <section class="min-max-container">  
+        <span class="text">Minimo</span>
+        <span class="material-symbols-outlined" id="min-icon">minimize</span>
+        <span class="material-symbols-outlined" id="max-icon">add</span>
+        <span class="text">Maximo</span>
+   </section>
+   <section class="min-max-container">  
+      <div id="result" class="text result"></div>
+      <div id="min-max" class="text result"></div>
+   </section>
+    <section class="spin-controls">
+      <button id="spin-button"><span id="icon" class="material-symbols-outlined">refresh
+      </span>
+    </button>
+      
+    </section>
+  
+</main>
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
